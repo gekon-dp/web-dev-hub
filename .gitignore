@@ -1,0 +1,51 @@
+### Системные файлы операционных систем (мусор)
+
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini 
+
+### Настройки сред разработки и редакторов кода (VS Code, WebStorm)
+
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp 
+
+### Зависимости и пакеты (самое важное для Node.js и React)
+
+node_modules/
+jspm_packages/
+.pnpm-store/
+.yarn/ 
+
+### Папки сборщиков, компиляторов и кэша (React, TypeScript, Node)
+
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+*.tsbuildinfo 
+
+### Логи ошибок npm и утилит
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log* 
+
+### Секретные ключи, пароли и переменные окружения (критично для бэкенда)
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
